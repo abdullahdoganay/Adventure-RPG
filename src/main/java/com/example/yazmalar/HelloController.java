@@ -15,7 +15,7 @@ public class HelloController {
     @FXML
     private Label nameOfEnemy;
 
-
+//deneme
     @FXML
     protected void onAttackButton(){
 

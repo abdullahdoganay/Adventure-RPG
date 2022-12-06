@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ButtonBar?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ProgressBar?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane accessibleRole="BUTTON" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="622.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.yazmalar.HelloController">
+   <children>
+      <ButtonBar layoutX="23.0" layoutY="264.0" prefHeight="40.0" prefWidth="577.0">
+        <buttons>
+            <Button mnemonicParsing="false" text="Run" />
+          <Button mnemonicParsing="false" text="Use Potion" />
+            <ProgressBar prefWidth="200.0" progress="0.0" />
+            <Button mnemonicParsing="false" onAction="#onAttackButton" prefHeight="26.0" prefWidth="207.0" text="Attack" />
+            <Button mnemonicParsing="false" text="Double Attack" />
+        </buttons>
+      </ButtonBar>
+      <ImageView fitHeight="134.0" fitWidth="134.0" layoutX="244.0" layoutY="84.0" pickOnBounds="true" preserveRatio="true" />
+      <Label fx:id="nameOfEnemy" alignment="CENTER" contentDisplay="CENTER" layoutX="271.0" layoutY="29.0" text="nameOfEnemy" textAlignment="CENTER" />
+      <ProgressBar id="canBari1" fx:id="canBari" accessibleRole="BUTTON" layoutX="212.0" layoutY="46.0" prefWidth="200.0" progress="1.0" />
+   </children>
+</AnchorPane>
