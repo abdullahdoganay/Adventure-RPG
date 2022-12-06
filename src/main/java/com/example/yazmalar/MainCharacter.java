@@ -1,3 +1,5 @@
+package com.example.yazmalar;
+
 public class MainCharacter extends Character{
     String gender;
     String place;

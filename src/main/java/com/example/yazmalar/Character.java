@@ -1,3 +1,4 @@
+package com.example.yazmalar;
 
 public class Character {
     int health = 100;
